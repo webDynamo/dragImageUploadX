@@ -1,0 +1,52 @@
+.hero {
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.hero ,h1 {
+    color:#b1b6b9;
+}
+
+#drop-area {
+    height: 200px;
+    width: 300px;
+    border: solid 1px #f2f2f2;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    background-size:  contain;
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+#input-file {
+    display: none;
+}
+
+#img-view {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin:10px;
+    border-radius: 5px;
+  
+}
+
+#img-view img {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+}
+#img-view p{
+    color:#b1b6b9;
+}
+
